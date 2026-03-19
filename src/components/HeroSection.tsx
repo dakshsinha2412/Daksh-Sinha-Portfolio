@@ -59,7 +59,7 @@ const HeroSection = () => {
 
       {/* Portrait */}
       <div
-        className="absolute top-[48%] md:top-[50%] left-1/2 z-20 w-[85vw] md:w-[45vw] lg:w-[33vw] max-w-[520px] pointer-events-none"
+        className="absolute top-[48%] md:top-[50%] left-1/2 z-20 w-[75vw] max-w-[280px] sm:max-w-[520px] sm:w-[60vw] md:w-[45vw] lg:w-[33vw] pointer-events-none"
         style={{ transform: `translate(-50%, calc(-50% + ${imgParallax}px))` }}
       >
         <FadeIn delay={400} direction="up" className="w-full">
@@ -87,7 +87,7 @@ const HeroSection = () => {
       </FadeIn>
 
       {/* Location badge */}
-      <div className="absolute bottom-10 left-6 md:left-12 z-40">
+      <div className="absolute bottom-16 md:bottom-10 left-6 md:left-12 z-40">
         <FadeIn delay={800} direction="left">
           <div className="flex items-center gap-3 border border-border bg-background/80 backdrop-blur-sm px-4 py-2.5 shadow-sm">
             <span className="text-xl leading-none">🇮🇳</span>

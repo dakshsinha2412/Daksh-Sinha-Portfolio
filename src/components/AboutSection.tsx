@@ -8,15 +8,15 @@ const stats = [
 ];
 
 const AboutSection = () => (
-  <section id="about" className="py-32 bg-secondary">
+  <section id="about" className="py-20 md:py-32 bg-secondary">
     <div className="container mx-auto px-6 md:px-12">
       <FadeIn delay={100} direction="up" className="mb-20">
-        <h2 className="text-6xl md:text-8xl font-black uppercase tracking-tighter text-foreground">
+        <h2 className="text-4xl sm:text-6xl md:text-8xl font-black uppercase tracking-tighter text-foreground">
           About Me<span className="text-red-500">.</span>
         </h2>
       </FadeIn>
 
-      <div className="grid md:grid-cols-2 gap-16 md:gap-24">
+      <div className="grid md:grid-cols-2 gap-12 md:gap-24">
         {/* Left — bio */}
         <FadeIn delay={200} direction="right" className="space-y-8">
           <p className="text-xl md:text-2xl font-semibold text-foreground leading-snug">

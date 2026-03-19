@@ -32,11 +32,11 @@ const projects = [
 ];
 
 const ProjectsSection = () => (
-  <section id="projects" className="py-32 bg-secondary">
+  <section id="projects" className="py-20 md:py-32 bg-secondary">
     <div className="container mx-auto px-6 md:px-12">
       <FadeIn delay={100} direction="up" className="mb-20">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4">
-          <h2 className="text-6xl md:text-8xl font-black uppercase tracking-tighter text-foreground">
+          <h2 className="text-5xl sm:text-6xl md:text-8xl font-black uppercase tracking-tighter text-foreground">
             Projects<span className="text-red-500">.</span>
           </h2>
           <a href="https://github.com/dakshsinha2412" target="_blank" rel="noopener noreferrer"

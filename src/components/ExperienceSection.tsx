@@ -16,10 +16,10 @@ const experiences = [
 ];
 
 const ExperienceSection = () => (
-  <section id="experience" className="py-32 bg-background">
+  <section id="experience" className="py-20 md:py-32 bg-background">
     <div className="container mx-auto px-6 md:px-12">
       <FadeIn delay={100} direction="up" className="mb-20">
-        <h2 className="text-6xl md:text-8xl font-black uppercase tracking-tighter text-foreground">
+        <h2 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black uppercase tracking-tighter text-foreground break-words sm:break-normal">
           Extracurricular Activities<span className="text-red-500">.</span>
         </h2>
       </FadeIn>

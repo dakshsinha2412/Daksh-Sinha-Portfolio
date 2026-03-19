@@ -33,11 +33,11 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="py-32 relative bg-[#f5f5f5]">
+    <section id="contact" className="py-20 md:py-32 relative bg-[#f5f5f5]">
       <div className="container mx-auto px-6 md:px-12">
         <FadeIn delay={100} direction="up" className="flex flex-col md:flex-row md:items-end justify-between mb-20 gap-6">
           <div>
-            <h2 className="text-6xl md:text-8xl font-black uppercase tracking-tighter text-foreground">
+            <h2 className="text-5xl sm:text-6xl md:text-8xl font-black uppercase tracking-tighter text-foreground">
               Get In<br/>Touch<span className="text-red-500">.</span>
             </h2>
           </div>
