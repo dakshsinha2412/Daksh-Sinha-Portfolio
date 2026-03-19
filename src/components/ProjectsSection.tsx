@@ -3,6 +3,15 @@ import { FadeIn } from "@/components/FadeIn";
 
 const projects = [
   {
+    title: "Portfolio Website",
+    description: "A modern, responsive personal portfolio website with smooth animations and a clean dark UI.",
+    stack: ["React", "Tailwind CSS", "TypeScript"],
+    github: "https://github.com/dakshsinha2412/Daksh_Portfolio",
+    live: "#",
+    year: "2024",
+    tag: "Frontend",
+  },
+  {
     title: "NetflixClone",
     description: "A simple Netflix homepage clone built with HTML and CSS. It mimics the look and feel of Netflix India's landing page.",
     stack: ["HTML", "CSS"],
@@ -28,6 +37,15 @@ const projects = [
     live: "#",
     year: "2024",
     tag: "Frontend",
+  },
+  {
+    title: "Lexify",
+    description: "An AI-powered dyslexia-friendly reader that transforms complex text into clear and digestible content.",
+    stack: ["Node.js", "React", "Express", "Google Gemini"],
+    github: "https://github.com/dakshsinha2412/Lexify",
+    live: "#",
+    year: "2024",
+    tag: "Full Stack",
   },
 ];
 

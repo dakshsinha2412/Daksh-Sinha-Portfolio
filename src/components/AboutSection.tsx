@@ -20,9 +20,8 @@ const AboutSection = () => (
         {/* Left — bio */}
         <FadeIn delay={200} direction="right" className="space-y-8">
           <p className="text-xl md:text-2xl font-semibold text-foreground leading-snug">
-            Computer Science Engineering student in{" "}
-            <span className="font-black">India</span>, seeking internship
-            opportunities to apply and expand my skills in real-world environments.
+            Sophomore at{" "}
+            <span className="font-black">SRMIST, Kattankulathur, Chennai, Tamil Nadu</span>
           </p>
           <p className="text-base text-foreground/65 leading-[1.8]">
             I have a strong foundation in programming and core computer science concepts, with a keen interest in
@@ -44,7 +43,7 @@ const AboutSection = () => (
           {/* Meta badges */}
           <div className="flex flex-wrap gap-3">
             {[
-              { icon: MapPin, label: "India" },
+              { icon: MapPin, label: "Gurugram" },
               { icon: GraduationCap, label: "SRM University, Chennai" },
               { icon: School, label: "City Montessori School, Lucknow" },
               { icon: BookOpen, label: "CSE Student" },

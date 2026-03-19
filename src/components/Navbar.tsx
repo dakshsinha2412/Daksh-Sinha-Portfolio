@@ -13,7 +13,7 @@ const Navbar = () => {
 
   // Track which section is in view
   useEffect(() => {
-    const sections = ["projects", "skills", "experience", "services", "about"];
+    const sections = ["projects", "skills", "education", "experience", "services", "about"];
     const observers: IntersectionObserver[] = [];
     sections.forEach((id) => {
       const el = document.getElementById(id);
@@ -27,6 +27,7 @@ const Navbar = () => {
 
   const links = [
     { label: "Projects", href: "#projects", id: "projects" },
+    { label: "Education", href: "#education", id: "education" },
     { label: "Skills", href: "#skills", id: "skills" },
     { label: "Experience", href: "#experience", id: "experience" },
     { label: "Services", href: "#services", id: "services" },
