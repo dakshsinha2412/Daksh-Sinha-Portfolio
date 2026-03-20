@@ -1,7 +1,7 @@
 # 🌐 Daksh Sinha – Portfolio
 
 ## 🔗 Links
-- **Live Website:** https://daksh-sinha-portfolio.vercel.app/  
+- **Live Website:** https://dakshsinha.vercel.app/ 
 - **GitHub:** https://github.com/dakshsinha2412  
 
 ---
