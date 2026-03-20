@@ -54,7 +54,7 @@ const ContactSection = () => {
             <div className="space-y-0 border-t border-border">
               {[
                 { icon: Mail, label: "Email", value: "dakshsinha2412@gmail.com", href: "mailto:dakshsinha2412@gmail.com" },
-                { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/dakshsinha", href: "https://linkedin.com/in/dakshsinha" },
+                { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/dakshsinha2412", href: "https://www.linkedin.com/in/dakshsinha2412/" },
                 { icon: Github, label: "GitHub", value: "github.com/dakshsinha2412", href: "https://github.com/dakshsinha2412" },
               ].map((link) => (
                 <a key={link.label} href={link.href} target={link.href.startsWith("http") ? "_blank" : undefined} rel="noopener noreferrer"

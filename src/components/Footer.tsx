@@ -20,7 +20,7 @@ const Footer = () => (
         <FadeIn delay={300} direction="up" className="flex items-center gap-4">
           {[
             { icon: Github, href: "https://github.com/dakshsinha2412", label: "GitHub" },
-            { icon: Linkedin, href: "https://linkedin.com/in/dakshsinha", label: "LinkedIn" },
+            { icon: Linkedin, href: "https://www.linkedin.com/in/dakshsinha2412/", label: "LinkedIn" },
             { icon: Mail, href: "mailto:dakshsinha2412@gmail.com", label: "Email" },
           ].map(({ icon: Icon, href, label }) => (
             <a key={label} href={href} target={href.startsWith("http") ? "_blank" : undefined}
