@@ -21,7 +21,7 @@ const AboutSection = () => (
         <FadeIn delay={200} direction="right" className="space-y-8">
           <p className="text-xl md:text-2xl font-semibold text-foreground leading-snug">
             Sophomore at{" "}
-            <span className="font-black">SRMIST, Kattankulathur, Chennai, Tamil Nadu</span>
+            <span className="font-black">SRMIST, Kattankulathur, Chennai</span>
           </p>
           <p className="text-base text-foreground/65 leading-[1.8]">
             I have a strong foundation in programming and core computer science concepts, with a keen interest in
@@ -44,7 +44,7 @@ const AboutSection = () => (
           <div className="flex flex-wrap gap-3">
             {[
               { icon: MapPin, label: "Gurugram" },
-               { icon: GraduationCap, label: "SRM University, Chennai, Tamil Nadu" },
+               { icon: GraduationCap, label: "SRM University, Chennai" },
               { icon: School, label: "City Montessori School, Lucknow" },
               { icon: BookOpen, label: "CSE Student" },
             ].map(({ icon: Icon, label }) => (
