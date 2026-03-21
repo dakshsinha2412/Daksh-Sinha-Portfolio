@@ -45,7 +45,7 @@ const AboutSection = () => (
             {[
               { icon: MapPin, label: "Gurugram" },
                { icon: GraduationCap, label: "SRM University, Chennai, Tamil Nadu" },
-              { icon: School, label: "City Montessori School, Lucknow, Uttar Pradesh" },
+              { icon: School, label: "City Montessori School, Lucknow" },
               { icon: BookOpen, label: "CSE Student" },
             ].map(({ icon: Icon, label }) => (
               <span key={label} className="flex items-center gap-2 border border-border bg-background px-4 py-2 text-xs font-bold uppercase tracking-widest text-foreground">
