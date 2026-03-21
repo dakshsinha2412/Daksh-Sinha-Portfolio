@@ -4,7 +4,7 @@ import { GraduationCap, School } from "lucide-react";
 const educationDetails = [
   {
     role: "Bachelor of Technology - BTech, Computer Science",
-    org: "SRMIST",
+    org: "SRM Institute of Science and Technology",
     orgFull: "Kattankulathur, Chennai, Tamil Nadu",
     period: "Aug 2024 \u2013 May 2028",
     icon: GraduationCap,
