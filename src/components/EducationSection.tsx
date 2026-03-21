@@ -13,7 +13,7 @@ const educationDetails = [
   {
     role: "High School Diploma, Science",
     org: "City Montessori School",
-    orgFull: "Lucknow",
+    orgFull: "Lucknow, Uttar Pradesh",
     period: "Jul 2014 \u2013 May 2024",
     icon: School,
     isCurrent: false,
