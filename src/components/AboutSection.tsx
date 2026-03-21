@@ -44,7 +44,7 @@ const AboutSection = () => (
           <div className="flex flex-wrap gap-3">
             {[
               { icon: MapPin, label: "Gurugram" },
-              { icon: GraduationCap, label: "SRM University, Chennai" },
+               { icon: GraduationCap, label: "SRM University, Chennai, Tamil Nadu" },
               { icon: School, label: "City Montessori School, Lucknow, Uttar Pradesh" },
               { icon: BookOpen, label: "CSE Student" },
             ].map(({ icon: Icon, label }) => (
